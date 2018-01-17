@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+    <article id="main">
+  <header class="special container wrapper style4 post">
+    <h2 class="post-title">{{ page.title }}</h2>
+    {% if site.active_lang == "fr" %}<p class="post-meta">{% include date-fr.html date=page.date %}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>{% endif %}
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    {{ content }}
+  </header>
+    <footer>
+        {% for post in site.posts %}
+        {% if post.lang == page.lang %}
+          {% if prev %}
+            <a href="{{ post.url }}"><</a
+          {% endif %}
+          {% assign prev = false %}
+          {% if post.id == page.id %}
+            {% assign prev = true %}
+          {% endif %}
+        {% endif %}
+        {% endfor %}
+
+        {% for post in site.posts reversed %}
+        {% if post.lang == page.lang %}
+          {% if next %}
+            <a href="{{ post.url }}">></a>
+            {% break %}
+          {% endif %}
+          {% assign next = false %}
+          {% if post.id == page.id %}
+            {% assign next = true %}
+          {% endif %}
+        {% endif %}
+        {% endfor %}
+    </footer>
+</article>
