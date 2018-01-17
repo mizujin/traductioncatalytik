@@ -1,24 +1,33 @@
-# Site settings
+---
 title: Catalytik traduction
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: jessika@catalytiktraduction.com
-description: > # this means to ignore newlines until "baseurl:"
- Catalytik traduction scientifique et technique.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+description: 'Catalytik traduction scientifique et technique.
 
+'
+baseurl: ''
+url: ''
 permalink: pretty
-plugins: [jekyll-polyglot]
-
-languages: ["fr", "en"]
-exclude_from_localization: ["js", "images", "css","assets"]
+plugins:
+- jekyll-polyglot
+languages:
+- fr
+- en
+exclude_from_localization:
+- js
+- images
+- css
+- assets
 parallel_localization: false
-default_lang: "fr"
-
-# Build settings
+default_lang: fr
 markdown: kramdown
-
-
-
 menu:
   accueil:
     fr: Accueil

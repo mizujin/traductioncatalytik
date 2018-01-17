@@ -1,10 +1,11 @@
 ---
+title: 'New service at Catalytik : Oral presentation preparation support'
+date: 2016-11-18 12:00:00 Z
+permalink: "/first-post.html"
 layout: post
-title:  "New service at Catalytik : Oral presentation preparation support"
-date:   2016-11-18 12:00:00
-permalink: /first-post.html
 lang: en
 ---
+
 <!--<span class="image featured"><img src="/images/pic02.jpg" alt=""></span>-->
 <p>In the effort to offer a service that truly corresponds to the needs of my partners, I am pleased to offer a new turnkey package to assist in the preparation of an oral presentation.</p>
 
