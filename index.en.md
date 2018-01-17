@@ -8,7 +8,7 @@ lang: en
 			<article id="main">
 
 				<header class="special container">
-					<h2>SERVICES</h2>
+					##SERVICES##
 				</header>
 
 				<!-- One -->
@@ -17,10 +17,10 @@ lang: en
 							<div class="12u">
 
 								<section>
-										<p>English is nowadays the international language for scientific communications. Whether it is for a poster, a presentation, a scientific article or for popularized documentation, your research will benefit from increased exposure if it is published in English.</p>
-										<p>I won't deny it: online translation tools are an excellent starting point for several actions, such as understanding the idea behind a text written in a foreign language or to convey general concepts. But using these tools to translate your research is not without risk.</p>
-										<p>If you are looking to broadcast your message in all its subtlety and detail, you will need a competent human being to tackle the task, and this is precisely the service I offer.</p>
-										<p>I offer English revision and translation services.</p>
+										English is nowadays the international language for scientific communications. Whether it is for a poster, a presentation, a scientific article or for popularized documentation, your research will benefit from increased exposure if it is published in English.
+										I won't deny it: online translation tools are an excellent starting point for several actions, such as understanding the idea behind a text written in a foreign language or to convey general concepts. But using these tools to translate your research is not without risk.
+										If you are looking to broadcast your message in all its subtlety and detail, you will need a competent human being to tackle the task, and this is precisely the service I offer.
+										I offer English revision and translation services.
 								</section>
 
 						</div>
