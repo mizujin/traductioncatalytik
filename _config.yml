@@ -1,6 +1,6 @@
 ---
 title: Catalytik traduction
-timezone: UTC
+timezone: America/New_York
 collections:
   posts:
     title: Posts
@@ -12,8 +12,8 @@ email: jessika@catalytiktraduction.com
 description: 'Catalytik traduction scientifique et technique.
 
 '
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 permalink: pretty
 plugins:
 - jekyll-polyglot
